@@ -41,33 +41,28 @@ TC = 1
 # 주사위 값에 따라 제거될 값의 인덱스
 # A: 5(F) B: 3(D) C:4(E) D:1(B) E:2(C) F:0(A)
 remove_idx = [5,3,4,1,2,0]
-# 옆면 합 받을 리스트
-result= []
-eel = []
+
+maxi = 0
+
 for tc in range(TC):
     #dice_tower = [list(map(int,input().split())) for _ in range(TC)]
     dice_tower = [[2,3,1,6,5,4],[3,1,2,4,6,5],[5,6,4,1,3,2],[1,3,6,2,4,5],[4,1,6,5,2,3]]
 
-    for i in range(len(dice_tower)):
-        eel = []
-        for idx in range(len(dice_tower[0])):
-            a = dice_tower[i][idx]
-            #print('a:', a)
-            b = remove_idx[idx]
-            #print('b:', b)
-            c = dice_tower[i][b]
-            #print('c:', c)
-            i = 1
-            tem = sum(dice_tower[i]) - (a+c)
-            eel.append(tem)
-            print()
-        result.append(eel)
-        # while True:
-        #
-        #
-        #     if a in dice_tower[i]:
-        #
-        #     i +=1
+    for i in range(6):
+        result = []
+        tem = [1,2,3,4,5,6]
+        tem.remove[dice_tower[0][i]]
+        next = dice_tower[0][remove_idx[i]]
+        tem.remove(next)
+        result.append(max(tem))
+        for j in range(1,len(dice_tower)):
+            tem = [1,2,3,4,5,6]
+            tem.remove(next)
+            next = dice_tower[j][remove_idx[dice_tower[j].index(next)]
+            tem.remove(next)
+            result.append(max(tem))
+        result = sum(result)
+    if maxi < result:
+        maxi = result
 
-    print(dice_tower[i])
-    print(result)
+print(maxi)
