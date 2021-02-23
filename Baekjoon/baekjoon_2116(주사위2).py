@@ -50,8 +50,8 @@
 구해진 최고값은 더해서 매 경우, 즉 첫번째 주사위의 놓음 방식에 따라 생기는 6가지 경우에서
 최고값을 구하면 된다. 
 
-"""
-
+"""#          0 1 2 3 4 5
+#             A B C D E F
 remove_idx = [5,3,4,1,2,0]
 # 옆면 합 받을 리스트
 max_num = 0
@@ -70,10 +70,13 @@ for i in range(6):
     # dt의 첫번째 행에서 i번째 요소를 제거한다.
     # 1번 주사위의 6가지 면에 대해서 다 조사할 것이므로, 순서는 중요치 않다.
     tem.remove(dice_tower[0][i])
+    # tem = [1,3,4,5,6]
     # 그리고, next라는 변수는 첫번째 주사위에서, i의 위치.에 반대편에 있는 값이 할당된다.
-    next = dice_tower[0][remove_idx[i]]
+    next = dice_tower[0][remove_idx[i]] 
+    # next = dice_tower[0][3] ==> 6
     # 그리고 그 값 역시 제거 해준다
     tem.remove(next)
+    # tem = [1,3,4,5]
     # 남은 값중에서 최대 값 찾아서 append
     result.append(max(tem))
 
@@ -85,7 +88,7 @@ for i in range(6):
         # 새 값이 할당되는 next는 이번 j번째 주사위의 천장값이 되는데, 이게 좀 복잡하다
         # 이번 바닥값의 맞은편 값을 구해야한다.
         # 이번 바닥값은 dice_tower[j][remove_idx의 키 == 이번 주사위 j 에서의 아까 next의 위치]
-        # 이번 주사위 j에서 아까 next의 위치의 반대값
+        # 이번 주사위 j에서 아까 next의 위치의 반대값                                                
         next = dice_tower[j][remove_idx[dice_tower[j].index(next)]]
         tem.remove(next)
         result.append(max(tem))
