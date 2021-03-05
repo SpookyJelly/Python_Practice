@@ -1,71 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="" />
+    <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programmers/2019_카카오_크레인인형.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programmers/정렬-H_index(2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../programmers/큐-주식가격.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programmers/정렬-H_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/정렬-H_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programmers/정렬-가장큰수.py" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/정렬-가장큰수.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-352">
+                    <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+                    <folding>
+                      <marker date="1614964578170" expanded="true" signature="1324:1331" ph="..." />
+                      <marker date="1614964578170" expanded="true" signature="1879:1884" ph="..." />
+                      <marker date="1614964578170" expanded="true" signature="1879:2474" ph="..." />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-441016572">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="15" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8413" />
+          <entry key="py" value="12144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8413" />
+          <entry key="Python" value="12144" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baekjoon_2605(줄세우기).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-              <folding>
-                <marker date="1613746763905" expanded="true" signature="1162:1325" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon_2116(주사위쌓기).py">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,6 +111,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <marker date="1614959193674" expanded="true" signature="181:182" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <marker date="1614966729587" expanded="true" signature="450:456" ph="..." />
+                <marker date="1614966729587" expanded="true" signature="450:1038" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon_2628(종이자르기).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="784">
@@ -118,7 +157,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baekjoon_10157(자리배정).py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
@@ -159,13 +198,16 @@
         <option value="$PROJECT_DIR$/bakjoon_1244번(스위치켜고끄기).py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/baekjoon_2628(종이자르기).py" />
+        <option value="$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py" />
+        <option value="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py" />
+        <option value="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="927" />
-    <option name="width" value="1000" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="689" />
+    <option name="width" value="976" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.baekjoon_2628(종이자르기)">
-    <configuration name="baekjoon_2116(주사위2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.baekjoon_5568(카드놓기)S5_정답편">
+    <configuration name="baekjoon_10829(이진수변환)B1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,7 +257,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon_2116(주사위2).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bakjoon_1244번(스위치켜고끄기)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="baekjoon_5568(카드놓기)S5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +299,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bakjoon_1244번(스위치켜고끄기).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="baekjoon_5568(카드놓기)S5_정답편" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,11 +316,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../SSAFY_daily_works/TIL/algorism" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../SSAFY_daily_works/TIL/algorism/selection_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,19 +351,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.baekjoon_2116(주사위2)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.bakjoon_1244번(스위치켜고끄기)" />
       <item itemvalue="Python.baekjoon_2628(종이자르기)" />
-      <item itemvalue="Python.selection_sort" />
+      <item itemvalue="Python.baekjoon_10829(이진수변환)B1" />
+      <item itemvalue="Python.baekjoon_5568(카드놓기)S5" />
+      <item itemvalue="Python.baekjoon_5568(카드놓기)S5_정답편" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baekjoon_5568(카드놓기)S5_정답편" />
+        <item itemvalue="Python.baekjoon_5568(카드놓기)S5" />
+        <item itemvalue="Python.baekjoon_10829(이진수변환)B1" />
         <item itemvalue="Python.baekjoon_2628(종이자르기)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.bakjoon_1244번(스위치켜고끄기)" />
-        <item itemvalue="Python.baekjoon_2116(주사위2)" />
       </list>
     </recent_temporary>
   </component>
@@ -339,15 +381,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="689" y="0" width="976" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32790446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -385,6 +428,16 @@
           <url>file://$PROJECT_DIR$/bakjoon_1244번(스위치켜고끄기).py</url>
           <line>111</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -456,6 +509,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon_10157(자리배정).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baekjoon_2116(주사위2).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -463,10 +523,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baekjoon_10157(자리배정).py">
+    <entry file="file://$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <marker date="1614959193674" expanded="true" signature="181:182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding>
+            <marker date="1614964578170" expanded="true" signature="1324:1331" ph="..." />
+            <marker date="1614964578170" expanded="true" signature="1879:1884" ph="..." />
+            <marker date="1614964578170" expanded="true" signature="1879:2474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <marker date="1614966729587" expanded="true" signature="450:456" ph="..." />
+            <marker date="1614966729587" expanded="true" signature="450:1038" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

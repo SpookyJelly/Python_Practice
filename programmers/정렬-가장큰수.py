@@ -21,12 +21,16 @@ def solution(numbers):
     numbers = list(map(str, numbers)) # list를 취해주는 이유 : sort 메서드는 map object에 사용할 수 가 없어서.
     # 정렬 힌트 : x*3를 해주어 반복된 문자열로 만든 고단위 수를 만들었다.
     # 이렇게 할 경우, 3 -> 3333 30 -> 3030이 되어, 목적에 맞게정렬을 할 수 있었다.
+    #[9,5,34,3,30] --> 9534303
+                #      9534330
+    # [999,555,343434,333,303030]
+    # [9,5,34,3,30]
     numbers.sort(key=lambda x: x*3, reverse=True) # 최초 코드 : lambda x : x[0:]
 
     for elem in numbers:
         answer += elem
 
-    return str(int(answer)) # 0000의 경우를 제거하기 위해서 정수로 변환후 다시 문자로 출력
+    return str(int(answer)) # 0000의 경우를 제거하기 위해서 정수로 변환후 다시 문자로 출력 -> 0
 
 
 # arr = ['9', '93', '92', '2']
