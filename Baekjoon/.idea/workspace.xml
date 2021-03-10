@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Baekjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Baekjoon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2210_숫자판점프.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210_숫자판점프.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaekJoon.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon 2단계.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bakjoon 3단계 (for문).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon 7단계 (문자열)(2).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon 9단계(수학2).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_6603번(S2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon 4단계(while).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon 5단계 (배열).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon 6단계 (함수).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon 7단계 (문자열).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon 8단계 (수학1).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1260_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1260_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.2210_숫자판점프">
+  <component name="RunManager" selected="Python.baekjoon_1260번(DFS와 BFS)(S2)">
     <configuration name="2210_숫자판점프" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,8 +189,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2210_숫자판점프" />
         <item itemvalue="Python.baekjoon_1260번(DFS와 BFS)(S2)" />
+        <item itemvalue="Python.2210_숫자판점프" />
         <item itemvalue="Python.baekjoon_6603번(S2)" />
         <item itemvalue="Python.baekjoon_5568(카드놓기)S5_정답편" />
         <item itemvalue="Python.baekjoon_5568(카드놓기)S5" />
@@ -305,12 +293,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py</url>
-          <line>73</line>
+          <line>78</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py</url>
-          <line>87</line>
+          <line>90</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
