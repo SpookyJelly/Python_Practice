@@ -23,27 +23,28 @@ sys.stdin = open('1260_input.txt', 'r')
 
 # DFS는 재귀랑 스택으로 구현 가능
 # L이 시작 위치, discovered도 본인 위치로
-def DFS_recursive(L: int, discovered: list):
-    global DFS_ans
-    # 일단 재귀로 할꺼니까, 종료조건부터 설정해주자.
-    # discovered에 경로를 저장할꺼니까, 이거 길이가 N이 되면 되겠지? <-- 시발...이게 오산이였다.!!!! 모든 노드를 다 한번씩 도는  경우만에서는 맞겠지만,
-    # 다들 분리되어있는 경우에는 무한 루프에 빠지는거셈...
-    # 잘 되었는데...이 Return 값을 어떻게 가져가냐... Global이 답인가?
-    if len(discovered) == N:  # <-- 이거 수정 필요
-        DFS_ans = discovered[:]
-        return
+# def DFS_recursive(L: int, discovered=[]):
+#     # global DFS_ans
+#     # 일단 재귀로 할꺼니까, 종료조건부터 설정해주자.
+#     # discovered에 경로를 저장할꺼니까, 이거 길이가 N이 되면 되겠지? <-- 시발...이게 오산이였다.!!!! 모든 노드를 다 한번씩 도는  경우만에서는 맞겠지만,
+#     # 다들 분리되어있는 경우에는 무한 루프에 빠지는거셈...
+#     # 잘 되었는데...이 Return 값을 어떻게 가져가냐... Global이 답인가?
+#
+#     # if len(discovered) == N:  # <-- 이거 수정 필요
+#     #     DFS_ans = discovered[:]
+#     #     return
+#     discovered.append(L)
+#     while discovered:  # 몇번 반복해야지?? <-- 몇번 돌려야할지 몰라서, 재귀 이후 후처리로 return 해줬다.
+#         for elem in node_dic[L]:
+#             if elem not in discovered:
+#                 # 1. discovered.append(elem)은 안 통한다. 임시변수라서 그런듯. list로 객체화 시킨다음 더해줘야지 제대로 값이 들어간다
+#                 # 2. return의 위치는 후처리 과정에 넣어준다. 안그러면 다른 방식으로 그래프 탐색한다.
+#                 # 그러니까....한번 Depth 들어가면 그냥 역할 끝내자구
+#                 DFS_recursive(elem, discovered)
+#         return discovered
+# 폐기.....
 
-    while discovered:  # 몇번 반복해야지?? <-- 몇번 돌려야할지 몰라서, 재귀 이후 후처리로 return 해줬다.
-        for elem in node_dic[L]:
-            if elem not in discovered:
-                # 1. discovered.append(elem)은 안 통한다. 임시변수라서 그런듯. list로 객체화 시킨다음 더해줘야지 제대로 값이 들어간다
-                # 2. return의 위치는 후처리 과정에 넣어준다. 안그러면 다른 방식으로 그래프 탐색한다.
-                # 그러니까....한번 Depth 들어가면 그냥 역할 끝내자구
-                DFS_recursive(elem, discovered + [elem])
-                return
-
-
-# 햐...이런 방식의 재귀도 있네.. 이러면 global 안써도 된다!
+# global 안쓰는 버젼
 def DFS_recursive2(L: int, discovered=[]):
     discovered.append(L)
     for w in node_dic[L]:
@@ -87,17 +88,15 @@ for tc in range(1, TC + 1):
         node_dic[goal] = sorted(node_dic.get(goal, []) + [start])
 
     if V in node_dic:
+
         DFS_ans = list(map(str, DFS_recursive2(V, [])))
         BFS_ans = list(map(str, BFS(V)))
-        # print('DFS',*DFS_ans)
-        # print('DFS2',*DFS_recursive2(V))
-        # print('BFS',*BFS_ans)
+
         print(' '.join(DFS_ans))
         print(' '.join(BFS_ans))
+
     else:
         print(V)
         print(V)
 
-    # 각주 이따가 달자!! 아오 씨발 아무튼 드디어 되었노!
 
-# 아니 백준 시발 이게 왜 키에러야!!!! 출력 잘되는데1!!
