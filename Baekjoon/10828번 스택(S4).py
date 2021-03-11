@@ -18,11 +18,12 @@ top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들
 출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.
 
 """
-# 아 이거 시간 문제가 아니라 123처럼 숫자 여러개 들어오는 경우도 있구나 , push에 <-- 이거 수정하자.
+# 아 이거 시간 문제가 아니라 123처럼 여러가릿수 들어오는 경우도 있구나 , push에 <-- 이거 수정하자.
 import sys
 from collections import deque
-sys.stdin = open('10828_input.txt', 'r')
 
+sys.stdin = open('10828_input.txt', 'r')
+input=sys.stdin.readline
 
 def push(num: str, stack: list) -> list:
     # 이상하게 stack.append 하면 None type이 return 된다??
@@ -59,10 +60,11 @@ def size(stack:list) -> int:
 TC = int(input())
 stack = deque()
 for tc in range(TC):
-    order = input()
+    order = input().strip()
 
     if 'push' in order:
-        stack = push(order[-1], stack)
+        p, num = order.split()
+        stack = push(num, stack)
     elif order == 'top':
         print(top(stack))
     elif order == 'size':
@@ -71,3 +73,8 @@ for tc in range(TC):
         print(pop(stack))
     elif order == 'empty':
         print(empty(stack))
+
+# 흠 시간 초과?
+# input=sys.stdin.readline 으로 시간 줄여봤다.
+# #주의할 점은 숫자가 아닌 문자열로 입력을 받는 경우엔 줄바꿈(\n)까지 입력으로 받으니 input().strip() 을 사용하거나 input().strip().split() 을 사용하시는게 좋습니다.
+# 아니 진짜네....놀랍다...그냥 입력 ㅏㅌ입만 바꿨는데
