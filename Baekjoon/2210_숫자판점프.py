@@ -13,8 +13,8 @@
 
 """
 
-import sys
-sys.stdin = open('./2210_input.txt', 'r')
+# import sys
+# sys.stdin = open('./2210_input.txt', 'r')
 
 
 def bbs(x, y, string) -> None:
