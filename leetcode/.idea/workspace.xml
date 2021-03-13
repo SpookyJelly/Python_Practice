@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbed0fd7-840e-4382-b7ad-cb8426ca295a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Baekjoon/2210_숫자판점프.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/49_GroupAnagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/819.Most common word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Baekjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Baekjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello_world.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/739_Daily Temperatures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +66,8 @@
     <property name="SearchEverywhereHistoryKey" value="reformat code&#9;ACTION&#9;ReformatCode" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.49_GroupAnagrams">
-    <configuration name="125_validPalindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.739_Daily Temperatures">
+    <configuration name="15_threesum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/125_validPalindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_threesum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,6 +130,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="739_Daily Temperatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/739_Daily Temperatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="819.Most common word" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,17 +173,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.125_validPalindrome" />
+      <item itemvalue="Python.15_threesum" />
       <item itemvalue="Python.344_reverseString" />
       <item itemvalue="Python.49_GroupAnagrams" />
+      <item itemvalue="Python.739_Daily Temperatures" />
       <item itemvalue="Python.819.Most common word" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.739_Daily Temperatures" />
+        <item itemvalue="Python.15_threesum" />
         <item itemvalue="Python.49_GroupAnagrams" />
         <item itemvalue="Python.819.Most common word" />
         <item itemvalue="Python.344_reverseString" />
-        <item itemvalue="Python.125_validPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +224,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -247,6 +277,11 @@
           <url>file://$PROJECT_DIR$/49_GroupAnagrams.py</url>
           <line>23</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15_threesum.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10158_개미S5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16236번_아기상어G4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/739_Daily Temperatures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10828번 스택(S4).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2210_숫자판점프.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210_숫자판점프.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2606_바이러스(S3).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2920_음계(B2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_10157(자리배정).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_10829(이진수변환)B1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_1260번(DFS와 BFS)(S2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_2116(주사위2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_2116(주사위쌓기).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_2605(줄세우기).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_2628(종이자르기).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_5568(카드놓기)S5_정답편.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekjoon_6603번(로또)(S2).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakjoon_1244번(스위치켜고끄기).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +77,28 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.2606_바이러스(S3)">
+  <component name="RunManager" selected="Python.16236번_아기상어G4">
+    <configuration name="10158_개미S5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Baekjoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10158_개미S5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="10828번 스택(S4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2210_숫자판점프" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="16236번_아기상어G4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2210_숫자판점프.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16236번_아기상어G4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,27 +154,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2606_바이러스(S3).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2920_음계(B2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Baekjoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2920_음계(B2).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,18 +185,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.10828번 스택(S4)" />
-      <item itemvalue="Python.2210_숫자판점프" />
       <item itemvalue="Python.2606_바이러스(S3)" />
-      <item itemvalue="Python.2920_음계(B2)" />
       <item itemvalue="Python.baekjoon_1260번(DFS와 BFS)(S2)" />
+      <item itemvalue="Python.10158_개미S5" />
+      <item itemvalue="Python.16236번_아기상어G4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16236번_아기상어G4" />
+        <item itemvalue="Python.10158_개미S5" />
         <item itemvalue="Python.2606_바이러스(S3)" />
         <item itemvalue="Python.10828번 스택(S4)" />
         <item itemvalue="Python.baekjoon_1260번(DFS와 BFS)(S2)" />
-        <item itemvalue="Python.2920_음계(B2)" />
-        <item itemvalue="Python.2210_숫자판점프" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +263,11 @@
           <url>file://$PROJECT_DIR$/2210_숫자판점프.py</url>
           <line>33</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10158_개미S5.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
