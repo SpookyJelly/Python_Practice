@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10158_개미S5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16236번_아기상어G4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/739_Daily Temperatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16236_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16236_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16236번_아기상어G4.py" beforeDir="false" afterPath="$PROJECT_DIR$/16236번_아기상어G4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +264,21 @@
           <url>file://$PROJECT_DIR$/10158_개미S5.py</url>
           <line>8</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/16236번_아기상어G4.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/16236번_아기상어G4.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/16236번_아기상어G4.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
