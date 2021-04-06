@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbed0fd7-840e-4382-b7ad-cb8426ca295a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/739_Daily Temperatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/104.Maximum_depth_of_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/543_diameter_of_binary_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +64,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="reformat code&#9;ACTION&#9;ReformatCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SSAFY_daily_works/TIL/algorism2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.739_Daily Temperatures">
+  <component name="RunManager" selected="Python.104.Maximum_depth_of_binary_tree">
+    <configuration name="104.Maximum_depth_of_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/104.Maximum_depth_of_binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="15_threesum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,27 +102,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_threesum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="344_reverseString" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/344_reverseString.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,19 +174,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.104.Maximum_depth_of_binary_tree" />
       <item itemvalue="Python.15_threesum" />
-      <item itemvalue="Python.344_reverseString" />
       <item itemvalue="Python.49_GroupAnagrams" />
       <item itemvalue="Python.739_Daily Temperatures" />
       <item itemvalue="Python.819.Most common word" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.104.Maximum_depth_of_binary_tree" />
         <item itemvalue="Python.739_Daily Temperatures" />
         <item itemvalue="Python.15_threesum" />
         <item itemvalue="Python.49_GroupAnagrams" />
         <item itemvalue="Python.819.Most common word" />
-        <item itemvalue="Python.344_reverseString" />
       </list>
     </recent_temporary>
   </component>
