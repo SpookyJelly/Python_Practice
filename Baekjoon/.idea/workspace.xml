@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1012_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1012_배추_S2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16236_retry.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16236번_상어재도전.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baekjoon_1991트리순회.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1012_배추_S2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1012_배추_S2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,11 +299,6 @@
           <url>file://$PROJECT_DIR$/16236번_상어재도전.py</url>
           <line>62</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1012_배추_S2.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
