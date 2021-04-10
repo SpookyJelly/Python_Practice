@@ -43,9 +43,9 @@ for _ in range(T):
     visited = [[False] * M for _ in range(N)]
 
     for i in range(K):
-        x, y = map(int, input().split())
-        area[y][x] = 1
-        insect.append([y, x])
+        y, x = map(int, input().split())
+        area[x][y] = 1
+        insect.append([x, y])
     cnt = 0
     eerie()
     print(cnt)

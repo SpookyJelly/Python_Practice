@@ -6,7 +6,7 @@ sys.stdin = open('16236_retry.txt','r')
 from collections import deque
 import heapq
 
-# 기본 아이디어 : 일단 보이는 물고기 다 먹는다. -> 먹은 물고기 위치, 먹기까지 걸린 시간 모두 저장 -> 먹기까지 가장 오래 걸린 시간 반환 -> 그러기 위해 힙으로 저장
+# 기본 아이디어 : 일단 보이는 물고기 다 먹는다. -> 먹은 물고기 위치, 먹기까지 걸린 시간 모두 저장 -> 먹기까지 가장 적게 걸린 시간 반환 -> 그러기 위해 최소힙으로 저장
 
 def BFS(lst:list):
     pray = []
@@ -39,7 +39,7 @@ def BFS(lst:list):
 N = int(input())
 # 일단 상어 위치 찾아야지
 
-shark_size = 2
+
 fish = []
 sea = [list(map(int,input().split())) for _ in range(N)]
 for i in range(N):
@@ -53,6 +53,7 @@ for i in range(N):
 level = 0
 count = 0
 ate = 0
+shark_size = 2
 while fish:
     # 다른 미로문제와는 다르게, 큐가 다 떨어졌어도, 조건에 따라 왔던곳도 다시 이동할 수 있다.
     # 그러니까 다시 방문행렬을 새로 만드는 것
@@ -60,6 +61,9 @@ while fish:
     visited[x][y] = True
     result = BFS([x,y,level])
     # result가 있다 --> 뭐라도 잡아왔다
+    # result[0] : 물고기 잡은 시간
+    # result[1] : 물고기 x 좌표
+    # result[2] : 물고기 y 좌표
     if result:
         count += result[0]
         x,y = result[1],result[2]

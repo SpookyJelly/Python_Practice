@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1012_배추_S2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1012_배추_S2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16236번_상어재도전.py" beforeDir="false" afterPath="$PROJECT_DIR$/16236번_상어재도전.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,12 +294,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/16236번_상어재도전.py</url>
-          <line>60</line>
+          <line>61</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/16236번_상어재도전.py</url>
-          <line>62</line>
+          <line>66</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
