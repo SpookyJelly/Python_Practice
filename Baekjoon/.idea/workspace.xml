@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/9663_Nqueen(G5).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,10 +180,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.1012_배추_S2" />
-      <item itemvalue="Python.7562번_나이트이동_S2" />
       <item itemvalue="Python.1918_후위표기식_G4" />
-      <item itemvalue="Python.9934_완전이진트리(s2)" />
+      <item itemvalue="Python.7562번_나이트이동_S2" />
       <item itemvalue="Python.9663_Nqueen(G5)" />
+      <item itemvalue="Python.9934_완전이진트리(s2)" />
     </list>
     <recent_temporary>
       <list>
