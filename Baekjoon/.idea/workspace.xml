@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b9e770-c292-4b15-a2f0-f2e9f229315c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +73,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.9663_Nqueen(G5)">
-    <configuration name="1012_배추_S2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.15686_치킨배달_G5">
+    <configuration name="15686_치킨배달_G5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1012_배추_S2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15686_치킨배달_G5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,19 +180,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1012_배추_S2" />
       <item itemvalue="Python.1918_후위표기식_G4" />
       <item itemvalue="Python.7562번_나이트이동_S2" />
       <item itemvalue="Python.9663_Nqueen(G5)" />
       <item itemvalue="Python.9934_완전이진트리(s2)" />
+      <item itemvalue="Python.15686_치킨배달_G5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.15686_치킨배달_G5" />
         <item itemvalue="Python.9663_Nqueen(G5)" />
         <item itemvalue="Python.9934_완전이진트리(s2)" />
         <item itemvalue="Python.1918_후위표기식_G4" />
         <item itemvalue="Python.7562번_나이트이동_S2" />
-        <item itemvalue="Python.1012_배추_S2" />
       </list>
     </recent_temporary>
   </component>
@@ -323,6 +324,21 @@
           <url>file://$PROJECT_DIR$/9663_Nqueen(G5).py</url>
           <line>29</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15686_치킨배달_G5.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15686_치킨배달_G5.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/15686_치킨배달_G5.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
