@@ -10,7 +10,7 @@ from collections import deque
 N,M = map(int,input().split())
 KFC = [] # 치킨 집의 위치
 home = [] # 도시에 있는 집 위치
-city = [] # 도시 그 자체
+
 for i in range(1,N+1):
     city_block = list(map(int,input().split()))
     for j in range(N):
@@ -18,8 +18,6 @@ for i in range(1,N+1):
             home.append([i,j+1])
         elif city_block[j] == 2:
             KFC.append([i,j+1])
-    city.append([0]+city_block)
-city = [[0] *(N+1)] + city
 
 
 survivor = combinations(KFC,M) # 살아남은 KFC들
@@ -31,7 +29,7 @@ for s in survivor:
     result = 0
     for x,y in home:
         # 집마다 각 치킨집 대상으로 최소거리 조사 <- 최초에는 임의의 큰 값
-        min_dis = 0xfffff
+        min_dis = 0xffffff
         for c_x,c_y in s:
             tem_min= abs(x-c_x)+abs(y-c_y)
             if tem_min <= min_dis:
@@ -42,6 +40,5 @@ for s in survivor:
     # 리스트로 append 받은 다음 최소값 구해도 되지만, 시간 초과가 계속 신경 쓰여서
     # 매 조합마다 최소값 비교로 정수형을 유지하기로 했다.
     min_chicken_dis = min(min_chicken_dis,result)
-
 
 print(min_chicken_dis)
