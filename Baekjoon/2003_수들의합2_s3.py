@@ -9,7 +9,7 @@
 # 즉, 연속된 요소의 합이 M 인 경우를 count 해서 출력하라는 것
 
 def sol1():
-    global cnt,start,end,
+    global cnt,start,end
     while start <=end and end<=N:
         summ = sum(lst[start:end])
         if summ==M:
@@ -42,7 +42,22 @@ def sol2():
         total -= lst[start]
         start += 1
 
-
+def sol3():
+    global cnt,start,end,total
+    while 0 <=start<N:
+        # 예외 조건.end가 끝까지 다 갔는데도 M 보다 작음
+        if end >= N and total < M:
+            break
+        # M 보다 작으면 플러스
+        if total <M:
+            total += lst[end]
+            end += 1
+        else: # total >=M
+            if total == M:
+                cnt += 1
+            start += 1
+            end = start
+            total = 0
 # N,M = map(int,input().split()) # M: 목표값, N:리스트의 길이
 N,M = 10,5
 
@@ -54,7 +69,7 @@ end = 0
 cnt = 0
 total = 0
 
-sol1()
+sol3()
 print(cnt)
 
 
