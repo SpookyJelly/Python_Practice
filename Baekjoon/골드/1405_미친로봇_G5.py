@@ -27,6 +27,7 @@
 # 지도를 직접 그려서 풀이한 사람이 많다. 지도를 반복해서 그리는게 아니기 때문에, 적절한 크기의 지도를 만든다면 실행속도가 더 빨라진다는 건가?
 import math
 
+# pypy 통과 / python 통과 x
 def manic(x:int,y:int,cnt:int,percent:int,path:list)->None:
     global total
     if (x,y) in path:
@@ -43,6 +44,8 @@ def manic(x:int,y:int,cnt:int,percent:int,path:list)->None:
 
 # 진짜 지도를 그려버리는게 더 빠르고, 메모리도 덜 먹는다.
 # in 메서드와 math 모듈 불러오는 작업이 그렇게 시간을 많이 잡아 먹나?
+
+# python 통과
 def manic2(x,y,cnt,percent):
     global total
     if cnt == N:
@@ -70,8 +73,8 @@ dx= [1,-1,0,0]
 dy = [0,0,1,-1]
 maps = [[0 for _ in range((N*2)+1)] for __ in range((N*2)+1)]
 # manic(0,0,0,1,[])
-maps[N//2][N//2] = 1 # 시작위치 True로 만들기
-manic2(N//2,N//2,0,1)
+maps[N][N] = 1 # 시작위치 True로 만들기
+manic2(N,N,0,1)
 print(total)
 
 # 시간복잡도 줄이려고 path를 set으로 썻는데, set에는 unhashable한 자료형은 못 넣는다. -> 그럼 사전형으로 바꾼다
