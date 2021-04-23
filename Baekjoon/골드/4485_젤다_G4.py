@@ -12,7 +12,7 @@ while True:
         break
     lst = [list(map(int,input().split())) for _ in range(N)]
     # print(lst)
-    D = [[99999] * N for _ in range(N)]
+    D = [[0xfffff] * N for _ in range(N)]
     D[0][0] = lst[0][0]
 
     def BFS(x,y):
@@ -25,7 +25,7 @@ while True:
             for i in range(4):
                 nx = x + dx[i]
                 ny = y + dy[i]
-                a = D
+                
                 if 0<= nx <N and 0<= ny <N:
                     weight =  lst[nx][ny]
                     if D[x][y]+weight < D[nx][ny]:
