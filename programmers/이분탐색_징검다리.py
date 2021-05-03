@@ -46,20 +46,20 @@ def solution(distance, rocks, n):
             if rock - previous_rock < mid:
                 removed_rock += 1
 
-            # 위치 차이가 잠재적 정답보다 크면 -> 실존하는 돌이다.
+            # 위치 차이가 잠재적 정답보다 크거나 같으면 -> 실존하는 돌이다.
             # 근데 잠재적 정답 mid가 최소값이 되어야 하고, 반환하는 값은 최솟값 중의 최대값이 되어야하므로,
             # 잠재적 정답을 더 큰 값으로 설정해야할 필요가 있다.
             else:
-                min_dis = min(min_dis,rock-previous_rock)
+                min_dis = min(min_dis,rock-previous_rock) # TODO: 이 라인이 존재해야하는 이유를 설명하기
                 previous_rock = rock
         
         # 순환 다 끝났으면 정산
         # 삭제된 짱돌이 명세보다 많음 --> mid를 너무 크게 잡음 --> mid를 줄인다
         if removed_rock > n:
-            right = mid-1
+            right = mid-1 #TODO: right = mid 가 아닌 mid -1 로 하는 이유 설명
         # 삭제된 짱돌이 명세보다 적음 -> mid가 너무 작다 -> mid를 키운다
         else:
-            left = mid +1
+            left = mid +1 # #TODO: left = mid 가 아닌 mid +1 로 하는 이유 설명.
             answer = min_dis # 이 구문 끝나고 while문 탈출 할 수도 있으니 answer로 미리 바인딩
             
     return answer
