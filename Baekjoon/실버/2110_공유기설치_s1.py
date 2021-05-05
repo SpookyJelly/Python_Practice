@@ -24,12 +24,12 @@
 # 입력의 수가 굉장히 크기 때문에, 반반씩 나눠가는 탐색을 해야한다는 생각이든다
 # 이번에 풀었던 이분 탐색으로 접근해야할 거 같은데, 탐색 근거..
 
-N,C = map(int,input().split())
-# N,C = 3,3
-home_lst = []
-# home_lst = [1,4,6]
-for n in range(N):
-    home_lst.append(int(input()))
+# N,C = map(int,input().split())
+N,C = 5,3
+# home_lst = []
+home_lst = [1,2,8,4,9]
+# for n in range(N):
+#     home_lst.append(int(input()))
 home_lst.sort()
 
 """
