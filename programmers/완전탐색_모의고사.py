@@ -10,6 +10,7 @@
 # 10000문제 정도면 껌이니까 그냥 요령없이 처음부터 끝까지 쭉 간다
 def solution(answers:list):
 
+    # 학생별로 찍는 순서 패턴화
     supo1 = [1,2,3,4,5]
     supo1_len = len(supo1)
     supo2 = [2,1,2,3,2,4,2,5]
@@ -17,7 +18,11 @@ def solution(answers:list):
     supo3 = [3,3,1,1,2,2,4,4,5,5]
     supo3_len = len(supo3)
 
+    # 학생 1,2,3의 정답 횟수 초기화
     ans1=ans2=ans3= 0
+    # % 연산자를 이용하여 idx의 증가 각자의 패턴 주기를 일치시킴
+    # ex. idx == 6 -> 학생1은 supo1[1], 학생 2는 supo[6]와 answers[6]을 비교해야한다.
+    # 그렇기 때문에, 각자의 정답 패턴 리스트의 길이를 넘어가는 경우, 다시 처음으로 돌아올 수 있게 % 연산자를 이용했다
     for idx in range(len(answers)):
         if answers[idx] == supo1[idx%supo1_len]:
             ans1 +=1
@@ -27,11 +32,14 @@ def solution(answers:list):
             ans3+=1
     
     answer = []
+    # 득점이 가장 높은 경우 산출
     max_cnt = max(ans1,ans2,ans3)
+    # 학생 1,2,3의 득점을 enumterate를 통해 idx와 같이 출력
+    # 학생들의 ans가 max_cnt와 일치한다면 idx+1를 answer에 append
     for (idx,ans) in enumerate([ans1,ans2,ans3]):
         if max_cnt == ans:
             answer.append(idx+1)
-
+    # answer 반환
     return answer
 
 
