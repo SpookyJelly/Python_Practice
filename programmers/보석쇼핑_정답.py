@@ -20,7 +20,8 @@ def solution(gems):
             end+=1
             if end == len(gems):
                 break
-            dic[gems[end]] = dic.get(gems[end],0) + 1
+
+            dic[gems[end]] = dic.get(gems[end],0) + 1 # 아래 주석이랑 동일한 코드
 
             
             # if gems[end] in dic.keys():
