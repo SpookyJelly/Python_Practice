@@ -4,7 +4,7 @@
 >
 > 소스코드의 버전 및 이력을 관리할 수 있다.
 
-
+ 
 
 [toc]
 
@@ -271,5 +271,4 @@ $ git add .
 $ git commit -m "SSAFY 교육장에서 공부한 내용"
 $ git push origin master
 ```
-
 
