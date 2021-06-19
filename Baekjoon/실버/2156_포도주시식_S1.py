@@ -16,8 +16,11 @@ wine = [0,0,0]
 memo = [0]*(N+3) # 먹은 와인을 저장하는 방법
 for _ in range(N):
     wine.append(int(input()))
+# index error 방지를 위한 dummy 값
 wine.extend([0,0,0])
 
+# index error 방지를 위해 3부터 시작,
+# N번째 와인을 마실때 N-2번 와인잔도 조사하므로,  3부터 시작해야지 idx == 0 일때도 동작가능
 for idx in range(3,N+3):
     memo[idx] = max(memo[idx-1],memo[idx-2]+wine[idx],memo[idx-3]+wine[idx-1]+wine[idx])
 
